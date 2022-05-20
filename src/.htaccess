@@ -1,0 +1,8 @@
+# tutorial/.htaccess
+# dfsdfdfd
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteRule   ^$ public/    [L]
+    RewriteRule   ((?s).*) public/$1 [L]
+</IfModule>
